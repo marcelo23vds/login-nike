@@ -1,0 +1,58 @@
+body {
+    background: rgba(0, 0, 0, 0.7) url(img/wallpaper.png);
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto';
+}
+
+.container {
+    margin-top: 10%;
+    padding: 5em 0 3em;
+    text-align: center;
+    backdrop-filter: blur(20px);
+    width: 350px;
+    border: solid white 1px;
+    border-radius: 20px;
+}
+
+.container__logo {
+    width: 200px;
+}
+
+.container__campos {
+    margin: 3em;
+}
+
+.lista__item {
+    margin-top: 1.5em;
+    padding: 1em;
+    border-radius: 23px;
+    border: 1px solid black;
+    width: 20vh;
+}
+
+#campo__botao {
+    width: 15vh;
+    margin-top: 4em;
+    background-color: transparent;
+    color: white;
+    border: solid white 1px;
+}
+
+#campo__botao:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: solid black 1px;
+}
+
+#container__novo-cadastro {
+    text-decoration: none;
+    color: white;
+}
+
+#container__novo-cadastro:hover {
+    color: gold;
+}
